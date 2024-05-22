@@ -1,3 +1,4 @@
-.vercel
+# Dependency directories
+node_modules/
 
-/node-modules
+.idea
