@@ -1,6 +1,7 @@
 {
   "kpi": [
     {
+      "link": "giang-day",
       "category": "Giảng Dạy",
       "kpis": [
         {
@@ -27,6 +28,7 @@
       ]
     },
     {
+      "link": "nghien-cuu",
       "category": "Nghiên Cứu",
       "kpis": [
         {
@@ -42,6 +44,7 @@
       ]
     },
     {
+      "link": "hoc-tap",
       "category": "Học Tập",
       "kpis": [
         {
