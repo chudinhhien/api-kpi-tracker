@@ -1,159 +1,75 @@
-[
-  {
-    "category": "Giảng Dạy",
-    "kpis": [
-      {
-        "name": "Chất lượng giảng dạy",
-        "frequency": "Hàng kỳ",
-        "time_period": "4 tháng",
-        "objectives": [
-          {
-            "name": "Số lượng giờ giảng dạy",
-            "weight": 20,
-            "unit": "Giờ",
-            "completed": 10,
-            "total": 20
-          },
-          {
-            "name": "Điểm trung bình đánh giá từ sinh viên",
-            "weight": 40,
-            "unit": "Điểm",
-            "completed": 30,
-            "total": 40
-          },
-          {
-            "name": "Sự tham gia vào các hoạt động đào tạo (hội thảo, khóa học ngắn hạn)",
-            "weight": 20,
-            "unit": "Lần",
-            "completed": 5,
-            "total": 10
-          },
-          {
-            "name": "Tỷ lệ sinh viên đạt yêu cầu/mục tiêu môn học",
-            "weight": 20,
-            "unit": "%",
-            "completed": 15,
-            "total": 20
-          }
-        ]
-      },
-      {
-        "name": "Sự phát triển chuyên môn",
-        "unit": "Giảng viên",
-        "frequency": "Hàng năm",
-        "time_period": "12 tháng",
-        "objectives": [
-          {
-            "name": "Số lượng các khóa học bồi dưỡng đã tham gia",
-            "weight": 50,
-            "unit": "Lần",
-            "completed": 2,
-            "total": 4
-          },
-          {
-            "name": "Số lần tham gia các hội nghị, hội thảo chuyên môn",
-            "weight": 50,
-            "unit": "Lần",
-            "completed": 3,
-            "total": 6
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "category": "Nghiên Cứu",
-    "kpis": [
-      {
-        "name": "Số lượng và chất lượng bài báo khoa học",
-        "frequency": "Hàng năm",
-        "time_period": "12 tháng",
-        "objectives": [
-          {
-            "name": "Số giờ nghiên cứu",
-            "weight": 50,
-            "unit": "Lần",
-            "completed": 100,
-            "total": 200
-          },
-          {
-            "name": "Số lượng bài báo được đăng trên tạp chí trong nước",
-            "weight": 30,
-            "unit": "Lần",
-            "completed": 3,
-            "total": 10
-          },
-          {
-            "name": "Chỉ số ảnh hưởng (Impact Factor) của tạp chí",
-            "weight": 20,
-            "unit": "Lần",
-            "completed": 1,
-            "total": 5
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "category": "Học Tập",
-    "kpis": [
-      {
-        "name": "Học tiếng Nhật",
-        "frequency": "Hàng kỳ",
-        "time_period": "4 tháng",
-        "objectives": [
-          {
-            "name": "Số lượng từ vựng học được mỗi tuần",
-            "weight": 30,
-            "unit": "Từ",
-            "completed": 20,
-            "total": 50
-          },
-          {
-            "name": "Điểm số các bài kiểm tra tiếng Nhật",
-            "weight": 40,
-            "unit": "Điểm",
-            "completed": 35,
-            "total": 50
-          },
-          {
-            "name": "Số giờ học tiếng Nhật",
-            "weight": 30,
-            "unit": "Giờ",
-            "completed": 25,
-            "total": 50
-          }
-        ]
-      },
-      {
-        "name": "Đạt sinh viên ngoại khóa tốt",
-        "unit": "Sinh viên",
-        "frequency": "Hàng kỳ",
-        "time_period": "4 tháng",
-        "objectives": [
-          {
-            "name": "Số lượng hoạt động ngoại khóa tham gia",
-            "weight": 40,
-            "unit": "Lần",
-            "completed": 5,
-            "total": 10
-          },
-          {
-            "name": "Số lượng chứng chỉ, giấy khen nhận được",
-            "weight": 30,
-            "unit": "Lần",
-            "completed": 2,
-            "total": 5
-          },
-          {
-            "name": "Số giờ hoạt động",
-            "weight": 30,
-            "unit": "Giờ",
-            "completed": 15,
-            "total": 30
-          }
-        ]
-      }
-    ]
-  }
-]
+{
+  "kpi": [
+    {
+      "link": "giang-day",
+      "category": "Giảng Dạy",
+      "kpis": [
+        {
+          "name": "Chất lượng giảng dạy",
+          "frequency": "Hàng kỳ",
+          "time_period": "4 tháng",
+          "objectives": [
+            {"name": "Số lượng giờ giảng dạy", "weight": 20, "unit": "Giờ"},
+            {"name": "Điểm trung bình đánh giá từ sinh viên", "weight": 40, "unit": "Điểm"},
+            {"name": "Sự tham gia vào các hoạt động đào tạo (hội thảo, khóa học ngắn hạn)", "weight": 20, "unit": "Lần"},
+            {"name": "Tỷ lệ sinh viên đạt yêu cầu/mục tiêu môn học", "weight": 20, "unit": "%"}
+          ]
+        },
+        {
+          "name": "Sự phát triển chuyên môn",
+          "unit": "Giảng viên",
+          "frequency": "Hàng năm",
+          "time_period": "12 tháng",
+          "objectives": [
+            {"name": "Số lượng các khóa học bồi dưỡng đã tham gia", "weight": 50, "unit": "Lần"},
+            {"name": "Số lần tham gia các hội nghị, hội thảo chuyên môn", "weight": 50, "unit": "Lần"}
+          ]
+        }
+      ]
+    },
+    {
+      "link": "nghien-cuu",
+      "category": "Nghiên Cứu",
+      "kpis": [
+        {
+          "name": "Số lượng và chất lượng bài báo khoa học",
+          "frequency": "Hàng năm",
+          "time_period": "12 tháng",
+          "objectives": [
+            {"name": "Số giờ nghiên cứu", "weight": 50, "unit": "Lần"},
+            {"name": "Số lượng bài báo được đăng trên tạp chí trong nước", "weight": 30, "unit": "Lần"},
+            {"name": "Chỉ số ảnh hưởng (Impact Factor) của tạp chí", "weight": 20, "unit": "Lần"}
+          ]
+        }
+      ]
+    },
+    {
+      "link": "hoc-tap",
+      "category": "Học Tập",
+      "kpis": [
+        {
+          "name": "Học tiếng Nhật",
+          "frequency": "Hàng kỳ",
+          "time_period": "4 tháng",
+          "objectives": [
+            {"name": "Số lượng từ vựng học được mỗi tuần", "weight": 30, "unit": "Từ"},
+            {"name": "Điểm số các bài kiểm tra tiếng Nhật", "weight": 40, "unit": "Điểm"},
+            {"name": "Số giờ học tiếng Nhật", "weight": 30, "unit": "Giờ"},
+            {"name": "", "weight": 30, "unit": "Từ"}
+          ]
+        },
+        {
+          "name": "Đạt sinh viên ngoại khóa tốt",
+          "unit": "Sinh viên",
+          "frequency": "Hàng kỳ",
+          "time_period": "4 tháng",
+          "objectives": [
+            {"name": "Số lượng hoạt động ngoại khóa tham gia", "weight": 40, "unit": "Lần"},
+            {"name": "Số lượng chứng chỉ, giấy khen nhận được", "weight": 30, "unit": "Lần"},
+            {"name": "Số giờ hoạt động", "weight": 30, "unit": "Giờ"}
+          ]
+        }
+      ]
+    }
+  ]
+}
