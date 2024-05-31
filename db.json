@@ -4,8 +4,7 @@
       "id": 1,
       "name": "Giảng dạy",
       "quantity": 5,
-      "percentage": 0,
-      "targets": [],
+      "percentage": 95,
       "target": [
         {
           "name": "Số giờ giảng dạy",
@@ -48,6 +47,62 @@
               "weight": 35
             }
           ]
+        },
+        {
+          "id": 2,
+          "name": "Hoàn thành xuất sắc môn lập trình web",
+          "percentage": 75,
+          "target": [
+            {
+              "name": "Số giờ giảng dạy",
+              "unit": "h",
+              "weight": 30,
+              "current": 40,
+              "goal": 50
+            },
+            {
+              "name": "Đánh giá của sinh viên",
+              "unit": "điểm",
+              "current": 0,
+              "goal": 8.5,
+              "weight": 35
+            },
+            {
+              "name": "Tỉ lệ sinh viên qua môn",
+              "unit": "%",
+              "current": 0,
+              "goal": 75,
+              "weight": 35
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Hoàn thành xuất sắc môn cơ sở dữ liệu",
+          "percentage": 65,
+          "target": [
+            {
+              "name": "Số giờ giảng dạy",
+              "unit": "h",
+              "weight": 30,
+              "current": 28,
+              "goal": 42
+            },
+            {
+              "name": "Đánh giá của sinh viên",
+              "unit": "điểm",
+              "current": 0,
+              "goal": 7.5,
+              "weight": 35
+            },
+            {
+              "name": "Tỉ lệ sinh viên qua môn",
+              "unit": "%",
+              "current": 0,
+              "goal": 68,
+              "weight": 35
+            }
+          ]
         }
       ]
     },
@@ -55,17 +110,126 @@
       "id": 2,
       "name": "Sinh hoạt",
       "percentage": 70,
-      "quantity": 6
+      "quantity": 6,
+      "target": [
+        {
+          "name": "Số buổi sinh hoạt",
+          "unit": "buổi"
+        },
+        {
+          "name": "Đánh giá của sinh viên",
+          "unit": "điểm"
+        }
+      ],
+      "kpis": [
+        {
+          "id": 1,
+          "name": "Tham gia câu lạc bộ học thuật",
+          "percentage": 80,
+          "target": [
+            {
+              "name": "Số buổi sinh hoạt",
+              "unit": "buổi",
+              "weight": 50,
+              "current": 10,
+              "goal": 12
+            },
+            {
+              "name": "Đánh giá của sinh viên",
+              "unit": "điểm",
+              "current": 0,
+              "goal": 8,
+              "weight": 50
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Tham gia sự kiện ngoại khóa",
+          "percentage": 60,
+          "target": [
+            {
+              "name": "Số buổi sinh hoạt",
+              "unit": "buổi",
+              "weight": 50,
+              "current": 5,
+              "goal": 8
+            },
+            {
+              "name": "Đánh giá của sinh viên",
+              "unit": "điểm",
+              "current": 0,
+              "goal": 7.5,
+              "weight": 50
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 3,
       "name": "Nghiên cứu",
       "percentage": 30,
-      "quantity": 10
+      "quantity": 10,
+      "target": [
+        {
+          "name": "Số bài nghiên cứu",
+          "unit": "bài"
+        },
+        {
+          "name": "Số dự án nghiên cứu",
+          "unit": "dự án"
+        }
+      ],
+      "kpis": [
+        {
+          "id": 1,
+          "name": "Hoàn thành bài nghiên cứu về AI",
+          "percentage": 50,
+          "target": [
+            {
+              "name": "Số bài nghiên cứu",
+              "unit": "bài",
+              "weight": 60,
+              "current": 1,
+              "goal": 2
+            },
+            {
+              "name": "Số dự án nghiên cứu",
+              "unit": "dự án",
+              "current": 0,
+              "goal": 1,
+              "weight": 40
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Tham gia dự án nghiên cứu về blockchain",
+          "percentage": 40,
+          "target": [
+            {
+              "name": "Số bài nghiên cứu",
+              "unit": "bài",
+              "weight": 40,
+              "current": 0,
+              "goal": 1
+            },
+            {
+              "name": "Số dự án nghiên cứu",
+              "unit": "dự án",
+              "current": 0,
+              "goal": 1,
+              "weight": 60
+            }
+          ]
+        }
+      ]
     },
     {
+      "id": 4,
       "name": "Phục vụ 1",
-      "description": "phục vụ sinh viên ",
+      "description": "phục vụ sinh viên",
       "percentage": 0,
       "target": [
         {
@@ -74,12 +238,55 @@
           "key": 0
         },
         {
-          "name": "đánh giá của sinh viên",
+          "name": "Đánh giá của sinh viên",
           "unit": "%",
           "key": 1
         }
       ],
-      "id": 4
+      "kpis": [
+        {
+          "id": 1,
+          "name": "Hỗ trợ sinh viên trong các dự án cá nhân",
+          "percentage": 50,
+          "target": [
+            {
+              "name": "Số giờ phục vụ",
+              "unit": "h",
+              "weight": 50,
+              "current": 10,
+              "goal": 20
+            },
+            {
+              "name": "Đánh giá của sinh viên",
+              "unit": "%",
+              "current": 0,
+              "goal": 85,
+              "weight": 50
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Tư vấn hướng nghiệp cho sinh viên",
+          "percentage": 50,
+          "target": [
+            {
+              "name": "Số giờ phục vụ",
+              "unit": "h",
+              "weight": 50,
+              "current": 5,
+              "goal": 15
+            },
+            {
+              "name": "Đánh giá của sinh viên",
+              "unit": "%",
+              "current": 0,
+              "goal": 90,
+              "weight": 50
+            }
+          ]
+        }
+      ]
     }
   ]
 }
