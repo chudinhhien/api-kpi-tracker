@@ -24,6 +24,7 @@
           "id": 1,
           "name": "Hoàn thành xuất sắc môn UI/UX",
           "percentage": 70,
+          "description": "Lớp Việt Nhật - CTTT",
           "target": [
             {
               "name": "Số giờ giảng dạy",
@@ -52,6 +53,7 @@
           "id": 2,
           "name": "Hoàn thành xuất sắc môn lập trình web",
           "percentage": 75,
+          "description": "Lớp cử nhân",
           "target": [
             {
               "name": "Số giờ giảng dạy",
@@ -79,6 +81,7 @@
         {
           "id": 3,
           "name": "Hoàn thành xuất sắc môn cơ sở dữ liệu",
+          "description": "Cần phải lấy đánh giá trước 10/7/2024",
           "percentage": 65,
           "target": [
             {
@@ -186,6 +189,7 @@
           "id": 1,
           "name": "Hoàn thành bài nghiên cứu về AI",
           "percentage": 50,
+          "description": "Maching learning",
           "target": [
             {
               "name": "Số bài nghiên cứu",
