@@ -4,12 +4,50 @@
       "id": 1,
       "name": "Giảng dạy",
       "quantity": 5,
-      "percentage": 90,
+      "percentage": 0,
       "targets": [],
+      "target": [
+        {
+          "name": "Số giờ giảng dạy",
+          "unit": "h"
+        },
+        {
+          "name": "Đánh giá của sinh viên",
+          "unit": "điểm"
+        },
+        {
+          "name": "Tỉ lệ sinh viên qua môn",
+          "unit": "%"
+        }
+      ],
       "kpis": [
         {
           "id": 1,
-          "name": "giảng dạy xuất sắc môn UI/UX"
+          "name": "Hoàn thành xuất sắc môn UI/UX",
+          "percentage": 70,
+          "target": [
+            {
+              "name": "Số giờ giảng dạy",
+              "unit": "h",
+              "weight": 30,
+              "current": 32,
+              "goal": 48
+            },
+            {
+              "name": "Đánh giá của sinh viên",
+              "unit": "điểm",
+              "current": 0,
+              "goal": 8,
+              "weight": 35
+            },
+            {
+              "name": "Tỉ lệ sinh viên qua môn",
+              "unit": "%",
+              "current": 0,
+              "goal": 70,
+              "weight": 35
+            }
+          ]
         }
       ]
     },
@@ -26,35 +64,22 @@
       "quantity": 10
     },
     {
-      "name": "sdsa",
-      "description": "adsda",
+      "name": "Phục vụ 1",
+      "description": "phục vụ sinh viên ",
       "percentage": 0,
       "target": [
         {
-          "name": "đá",
-          "unit": "ađsa",
+          "name": "Số giờ phục vụ",
+          "unit": "h",
           "key": 0
         },
         {
-          "name": "adsa",
-          "unit": "adsa",
+          "name": "đánh giá của sinh viên",
+          "unit": "%",
           "key": 1
         }
       ],
       "id": 4
-    },
-    {
-      "name": "sa",
-      "description": "ấ",
-      "percentage": 0,
-      "target": [
-        {
-          "name": "asa",
-          "unit": "asa",
-          "key": 0
-        }
-      ],
-      "id": 5
     }
   ]
 }
